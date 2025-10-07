@@ -4,3 +4,4 @@ os
 joblib
 openpyxl
 scikit-learn
+streamlit
