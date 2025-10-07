@@ -4,9 +4,9 @@ import joblib
 
 # Load the saved assets (one-hot encoder, min-max scaler, and the best stacking model)
 try:
-    onehot_encoder = joblib.load('/content/drive/MyDrive/Especializacion Analitica de Datos/9. Analitica predictiva/Ejercicios en clase/1. Clasificación/onehot_encoder.joblib')
-    minmax_scaler = joblib.load('/content/drive/MyDrive/Especializacion Analitica de Datos/9. Analitica predictiva/Ejercicios en clase/1. Clasificación/minmax_scaler.joblib')
-    best_stacking_model = joblib.load('/content/drive/MyDrive/Especializacion Analitica de Datos/9. Analitica predictiva/Ejercicios en clase/1. Clasificación/best_stacking_model.joblib')
+    onehot_encoder = joblib.load('onehot_encoder.joblib')
+    minmax_scaler = joblib.load('minmax_scaler.joblib')
+    best_stacking_model = joblib.load('best_stacking_model.joblib')
 except FileNotFoundError:
     st.error("Error loading model or scalers. Please ensure the files are in the correct path in your Google Drive.")
     st.stop()
