@@ -1,7 +1,0 @@
-pandas
-numpy
-os
-openpyxl
-scikit-learn
-streamlit
-joblib
