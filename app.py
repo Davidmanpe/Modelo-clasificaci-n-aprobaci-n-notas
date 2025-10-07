@@ -1,6 +1,6 @@
+import joblib
 import streamlit as st
 import pandas as pd
-import joblib
 
 # Load the saved assets (one-hot encoder, min-max scaler, and the best stacking model)
 try:
